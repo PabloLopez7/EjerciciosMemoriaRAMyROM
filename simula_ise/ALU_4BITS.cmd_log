@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 ALU_4BITS.ngc ALU_4BITS.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o ALU_4BITS_map.ncd ALU_4BITS.ngd ALU_4BITS.pcf 
+par -w -intstyle ise -ol high -t 1 ALU_4BITS_map.ncd ALU_4BITS.ncd ALU_4BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ALU_4BITS.twx ALU_4BITS.ncd -o ALU_4BITS.twr ALU_4BITS.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/ALU_4BITS.xst" -ofn "C:/Xilinx/simula_ise/ALU_4BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 ALU_4BITS.ngc ALU_4BITS.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o ALU_4BITS_map.ncd ALU_4BITS.ngd ALU_4BITS.pcf 
+par -w -intstyle ise -ol high -t 1 ALU_4BITS_map.ncd ALU_4BITS.ncd ALU_4BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ALU_4BITS.twx ALU_4BITS.ncd -o ALU_4BITS.twr ALU_4BITS.pcf 

@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml ALU_4BITS.twx ALU_4BITS.ncd -o ALU_4BITS.twr ALU_4BITS.pcf
+
+Design file:              ALU_4BITS.ncd
+Physical constraint file: ALU_4BITS.pcf
+Device,package,speed:     xc3s50,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Cout           |   10.380|
+A<0>           |Yout<0>        |    8.211|
+A<0>           |Yout<1>        |    8.236|
+A<0>           |Yout<2>        |    8.024|
+A<0>           |Yout<3>        |    9.073|
+A<1>           |Cout           |   10.592|
+A<1>           |Yout<1>        |    7.820|
+A<1>           |Yout<2>        |    8.173|
+A<1>           |Yout<3>        |    9.285|
+A<2>           |Cout           |    9.428|
+A<2>           |Yout<2>        |    7.493|
+A<2>           |Yout<3>        |    8.386|
+A<3>           |Cout           |    9.651|
+A<3>           |Yout<3>        |    8.380|
+B<0>           |Cout           |   10.463|
+B<0>           |Yout<0>        |    8.075|
+B<0>           |Yout<1>        |    8.319|
+B<0>           |Yout<2>        |    8.107|
+B<0>           |Yout<3>        |    9.156|
+B<1>           |Cout           |   10.242|
+B<1>           |Yout<1>        |    7.470|
+B<1>           |Yout<2>        |    7.823|
+B<1>           |Yout<3>        |    8.935|
+B<2>           |Cout           |    9.318|
+B<2>           |Yout<2>        |    7.383|
+B<2>           |Yout<3>        |    8.276|
+B<3>           |Cout           |    9.156|
+B<3>           |Yout<3>        |    7.885|
+opcode<0>      |Cout           |   11.276|
+opcode<0>      |Yout<0>        |    8.882|
+opcode<0>      |Yout<1>        |    9.132|
+opcode<0>      |Yout<2>        |    8.920|
+opcode<0>      |Yout<3>        |    9.969|
+opcode<1>      |Cout           |   11.520|
+opcode<1>      |Yout<0>        |    9.126|
+opcode<1>      |Yout<1>        |    9.376|
+opcode<1>      |Yout<2>        |    9.164|
+opcode<1>      |Yout<3>        |   10.213|
+opcode<2>      |Cout           |   11.853|
+opcode<2>      |Yout<0>        |    9.678|
+opcode<2>      |Yout<1>        |    9.709|
+opcode<2>      |Yout<2>        |    9.497|
+opcode<2>      |Yout<3>        |   10.546|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jun 16 16:48:12 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4470 MB
+
+
+

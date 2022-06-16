@@ -1,0 +1,4 @@
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 ALU_8BITS.ngc ALU_8BITS.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o ALU_8BITS_map.ncd ALU_8BITS.ngd ALU_8BITS.pcf 
+par -w -intstyle ise -ol high -t 1 ALU_8BITS_map.ncd ALU_8BITS.ncd ALU_8BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ALU_8BITS.twx ALU_8BITS.ncd -o ALU_8BITS.twr ALU_8BITS.pcf 

@@ -1,0 +1,95 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 TB_ALU_8BITS.ngc
+TB_ALU_8BITS.ngd
+
+Reading NGO file "C:/Xilinx/simula_ise/TB_ALU_8BITS.ngc" ...
+Loading design module "C:\Xilinx\simula_ise/ALU_8BITS.ngc"...
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:889 - Pad net 'N0' is not connected to an external port in this
+   design.  A new port 'N0' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'N1' is not connected to an external port in this
+   design.  A new port 'N1' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'UUT/d_o<7>' is not connected to an external port in
+   this design.  A new port 'd_o<7>' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'UUT/d_o<6>' is not connected to an external port in
+   this design.  A new port 'd_o<6>' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'UUT/d_o<5>' is not connected to an external port in
+   this design.  A new port 'd_o<5>' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'UUT/d_o<4>' is not connected to an external port in
+   this design.  A new port 'd_o<4>' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'UUT/d_o<3>' is not connected to an external port in
+   this design.  A new port 'd_o<3>' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'UUT/d_o<2>' is not connected to an external port in
+   this design.  A new port 'd_o<2>' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'UUT/d_o<1>' is not connected to an external port in
+   this design.  A new port 'd_o<1>' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'UUT/d_o<0>' is not connected to an external port in
+   this design.  A new port 'd_o<0>' has been added and is connected to this
+   signal.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:455 - logical net 'N0' has multiple driver(s):
+     pin G on block XST_GND with type GND,
+     pin PAD on block N0 with type PAD
+ERROR:NgdBuild:462 - input pad net 'N0' drives multiple buffers:
+     pin I on block UUT/a_i_7_IBUF with type IBUF,
+     pin I on block UUT/a_i_6_IBUF with type IBUF,
+     pin I on block UUT/a_i_5_IBUF with type IBUF,
+     pin I on block UUT/a_i_3_IBUF with type IBUF,
+     pin I on block UUT/a_i_2_IBUF with type IBUF,
+     pin I on block UUT/a_i_1_IBUF with type IBUF,
+     pin I on block UUT/b_i_7_IBUF with type IBUF,
+     pin I on block UUT/b_i_6_IBUF with type IBUF,
+     pin I on block UUT/b_i_4_IBUF with type IBUF,
+     pin I on block UUT/b_i_3_IBUF with type IBUF,
+     pin I on block UUT/b_i_2_IBUF with type IBUF,
+     pin I on block UUT/opcode_i_1_IBUF with type IBUF,
+     pin I on block UUT/opcode_i_0_IBUF with type IBUF
+ERROR:NgdBuild:924 - input pad net 'N0' is driving non-buffer primitives:
+     pin G on block XST_GND with type GND
+ERROR:NgdBuild:455 - logical net 'N1' has multiple driver(s):
+     pin P on block XST_VCC with type VCC,
+     pin PAD on block N1 with type PAD
+ERROR:NgdBuild:462 - input pad net 'N1' drives multiple buffers:
+     pin I on block UUT/a_i_4_IBUF with type IBUF,
+     pin I on block UUT/a_i_0_IBUF with type IBUF,
+     pin I on block UUT/b_i_5_IBUF with type IBUF,
+     pin I on block UUT/b_i_1_IBUF with type IBUF,
+     pin I on block UUT/b_i_0_IBUF with type IBUF
+ERROR:NgdBuild:924 - input pad net 'N1' is driving non-buffer primitives:
+     pin P on block XST_VCC with type VCC
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     6
+  Number of warnings:   0
+
+Total memory usage is 4397324 kilobytes
+
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "TB_ALU_8BITS.bld"...

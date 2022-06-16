@@ -1,0 +1,6 @@
+AR alu_4bits behavioral C:/Xilinx/simula_ise/ALU_4BITS.vhd sub00/vhpl03 1655417003
+EN tb_alu_8bits NULL C:/Xilinx/simula_ise/TB_ALU_8BITS.vhd sub00/vhpl01 1655415227
+EN alu_4bits NULL C:/Xilinx/simula_ise/ALU_4BITS.vhd sub00/vhpl00 1655417002
+EN tb_alu_4bits NULL C:/Xilinx/simula_ise/TB_ALU_4BITS.vhd sub00/vhpl04 1655417004
+AR tb_alu_4bits behavioral C:/Xilinx/simula_ise/TB_ALU_4BITS.vhd sub00/vhpl05 1655416710
+AR tb_alu_8bits tb C:/Xilinx/simula_ise/TB_ALU_8BITS.vhd sub00/vhpl02 1655415228

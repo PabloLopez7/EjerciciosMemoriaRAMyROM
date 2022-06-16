@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/simula_ise/ALU_4BITS_isim_beh.exe" -prj "C:/Xilinx/simula_ise/ALU_4BITS_beh.prj" "work.ALU_4BITS" 

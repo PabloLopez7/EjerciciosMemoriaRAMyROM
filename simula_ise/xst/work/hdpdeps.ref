@@ -1,0 +1,18 @@
+V3 11
+FL C:/Xilinx/simula_ise/ALU_4BITS.vhd 2022/06/16.16:40:03 P.20131013
+EN work/ALU_4BITS 1655417002 FL C:/Xilinx/simula_ise/ALU_4BITS.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU_4BITS/Behavioral 1655417003 \
+      FL C:/Xilinx/simula_ise/ALU_4BITS.vhd EN work/ALU_4BITS 1655417002
+FL C:/Xilinx/simula_ise/TB_ALU_4BITS.vhd 2022/06/16.16:58:25 P.20131013
+EN work/TB_ALU_4BITS 1655416709 FL C:/Xilinx/simula_ise/TB_ALU_4BITS.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/TB_ALU_4BITS/Behavioral 1655416710 \
+      FL C:/Xilinx/simula_ise/TB_ALU_4BITS.vhd EN work/TB_ALU_4BITS 1655416709 \
+      CP ALU_4BITS
+FL C:/Xilinx/simula_ise/TB_ALU_8BITS.vhd 2022/06/16.16:07:48 P.20131013
+EN work/TB_ALU_8BITS 1655415227 FL C:/Xilinx/simula_ise/TB_ALU_8BITS.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/TB_ALU_8BITS/tb 1655415228 \
+      FL C:/Xilinx/simula_ise/TB_ALU_8BITS.vhd EN work/TB_ALU_8BITS 1655415227 \
+      CP ALU_8BITS

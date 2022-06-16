@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/TB_ALU_8BITS.xst" -ofn "C:/Xilinx/simula_ise/TB_ALU_8BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 TB_ALU_8BITS.ngc TB_ALU_8BITS.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 TB_ALU_8BITS.ngc TB_ALU_8BITS.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/simula_ise/TB_ALU_8BITS.xst" -ofn "C:/Xilinx/simula_ise/TB_ALU_8BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 TB_ALU_8BITS.ngc TB_ALU_8BITS.ngd  
